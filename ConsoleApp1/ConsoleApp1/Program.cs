@@ -100,69 +100,15 @@ namespace ConsoleApp1
     }
 
     class StudentComparer : EqualityComparer<Student>
-    {
-        public int Compare(Student x, Student y)
-        {
-            // INDEX NUMBER
-            if (x.IndexNumer.CompareTo(y.IndexNumer) != 0)
-            {
-                return x.IndexNumer.CompareTo(y.IndexNumer);
-            }
-
-            // NAME
-            if (string.CompareOrdinal(x.Name, y.Name) != 0)
-            {
-                return string.CompareOrdinal(x.Name, y.Name);
-            }
-
-            // SURNAME
-            if (string.CompareOrdinal(x.Surname, y.Surname) != 0)
-            {
-                return string.CompareOrdinal(x.Surname, y.Surname);
-            }
-
-            // FACULTY
-            if (string.CompareOrdinal(x.Faculty, y.Faculty) != 0)
-            {
-                return string.CompareOrdinal(x.Faculty, y.Faculty);
-            }
-
-            // COURSE TYPE
-            if (string.CompareOrdinal(x.CourseType, y.CourseType) != 0)
-            {
-                return string.CompareOrdinal(x.CourseType, y.CourseType);
-            }
-            // STUDIES START
-            if (x.StudiesStart.CompareTo(y.StudiesStart) != 0)
-            {
-                return x.StudiesStart.CompareTo(y.StudiesStart);
-            }
-            // EMAIL
-            if (string.CompareOrdinal(x.Email, y.Email) != 0)
-            {
-                return string.CompareOrdinal(x.Email, y.Email);
-            }
-            // FATHER NAME
-            if (string.CompareOrdinal(x.FatherName, y.FatherName) != 0)
-            {
-                return string.CompareOrdinal(x.FatherName, y.FatherName);
-            }
-
-            return string.CompareOrdinal(x.MotherName, y.MotherName);
-        }
-
+    { 
         public override bool Equals(Student? x, Student? y)
         {
-            return x.IndexNumer.Equals(y.IndexNumer) & x.Name.Equals(y.Name) & x.Surname.Equals(y.Surname) &
-                   x.Faculty.Equals(y.Faculty) & x.StudiesStart.Equals(y.StudiesStart) & x.Email.Equals(y.Email) &
-                   x.FatherName.Equals(y.FatherName) & x.MotherName.Equals(y.MotherName);
+            return x.IndexNumer.Equals(y.IndexNumer) & x.Name.Equals(y.Name) & x.Surname.Equals(y.Surname);
         }
 
         public override int GetHashCode(Student s)
         {
-            return s.IndexNumer * 17 + s.Name.GetHashCode() + s.Surname.GetHashCode() + s.Email.GetHashCode() +
-                   s.Faculty.GetHashCode() + s.CourseType.GetHashCode() + s.StudiesStart.GetHashCode() +
-                   s.FatherName.GetHashCode() + s.MotherName.GetHashCode();
+            return s.IndexNumer * 17 + s.Name.GetHashCode() + s.Surname.GetHashCode();
         }
     }
 }

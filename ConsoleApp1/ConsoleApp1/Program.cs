@@ -13,32 +13,32 @@ namespace ConsoleApp1
         {
             Students = new(new StudentComparer());
         }
+
+        public async Task ParseStudents(string path)
+        {
+            using StreamReader stream = new(path);
+
+            string line = null;
+
+            while ((line = await stream.ReadLineAsync()) != null)
+            {
+                Students.Add(new Student(line));
+            }
+        }
+
+        public void ShowStudents()
+        {
+            foreach (var student in Students)
+            {
+                Console.WriteLine(student);
+            }
+        }
         
         public static async Task Main(string[] args)
         {
-            var path = args[0];
-            // var fi = new FileInfo(path);
-            FileInfo fi = new(path);
-
-            var fileContent = new List<string>();
-            using (StreamReader stream = new(fi.OpenRead()))
-            {
-                // Analogicznie do ""
-                //string line = string.Empty;
-                string line = null;
-
-                while ((line = await stream.ReadLineAsync()) != null)
-                {
-                    fileContent.Add(line);
-                }
-
-            }
-
-            foreach (var item in fileContent)
-            {
-                Console.WriteLine(item);
-            }
-
+            Program program = new();
+            await program.ParseStudents(args[0]);
+            program.ShowStudents();
             // DateTime - typ dla daty: metody Parse() i TryParse()
             // DateTime.Parse("2022-03-20")
 
@@ -70,7 +70,9 @@ namespace ConsoleApp1
             {
                 if (entrysplit[i].Equals(""))
                 {
+                    Logger.Write($"({DateTime.Now})Faulty Entry: ");
                     Logger.Write(entry);
+                    Logger.Write("\n");
                     break;
                 }
             }
@@ -88,7 +90,13 @@ namespace ConsoleApp1
             
             Logger.Close();
         }
-        
+
+        public override string ToString()
+        {
+            return
+                $"Student s{IndexNumer}: {Name} {Surname}, {Faculty}, {CourseType}," +
+                $"{StudiesStart}, {Email}, {FatherName}, {MotherName}";
+        }
     }
 
     class StudentComparer : EqualityComparer<Student>

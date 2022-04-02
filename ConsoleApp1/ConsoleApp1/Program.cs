@@ -7,6 +7,12 @@ namespace ConsoleApp1
 {
     public class Program
     {
+        private HashSet<Student> Students;
+
+        public Program()
+        {
+            Students = new(new StudentComparer());
+        }
         
         public static async Task Main(string[] args)
         {
@@ -85,9 +91,9 @@ namespace ConsoleApp1
         
     }
 
-    class OwnComparer : Comparer<Student>
+    class StudentComparer : EqualityComparer<Student>
     {
-        public override int Compare(Student x, Student y)
+        public int Compare(Student x, Student y)
         {
             // INDEX NUMBER
             if (x.IndexNumer.CompareTo(y.IndexNumer) != 0)
@@ -135,6 +141,20 @@ namespace ConsoleApp1
             }
 
             return string.CompareOrdinal(x.MotherName, y.MotherName);
+        }
+
+        public override bool Equals(Student? x, Student? y)
+        {
+            return x.IndexNumer.Equals(y.IndexNumer) & x.Name.Equals(y.Name) & x.Surname.Equals(y.Surname) &
+                   x.Faculty.Equals(y.Faculty) & x.StudiesStart.Equals(y.StudiesStart) & x.Email.Equals(y.Email) &
+                   x.FatherName.Equals(y.FatherName) & x.MotherName.Equals(y.MotherName);
+        }
+
+        public override int GetHashCode(Student s)
+        {
+            return s.IndexNumer * 17 + s.Name.GetHashCode() + s.Surname.GetHashCode() + s.Email.GetHashCode() +
+                   s.Faculty.GetHashCode() + s.CourseType.GetHashCode() + s.StudiesStart.GetHashCode() +
+                   s.FatherName.GetHashCode() + s.MotherName.GetHashCode();
         }
     }
 }

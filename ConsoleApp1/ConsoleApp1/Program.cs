@@ -22,7 +22,7 @@ namespace ConsoleApp1
 
             while ((line = await stream.ReadLineAsync()) != null)
             {
-                Students.Add(new Student(line));
+                Students.Add(Student.CreateStudent(line));
             }
         }
 
@@ -58,37 +58,59 @@ namespace ConsoleApp1
         public string Name, Surname, Faculty, CourseType, Email, FatherName, MotherName;
         public int IndexNumer;
         public DateTime StudiesStart;
-        public static string LoggerPath = "Data/log.txt";
-        public StreamWriter Logger;
-        
+        public const string LoggerPath = "Data/log.txt";
 
-        public Student(string entry)
+        private Student(string name, string surname, string faculty, string courseType, string email,
+            string fatherName, string motherName, int indexNumer, DateTime studiesStart)
         {
-            Logger = new(LoggerPath, append: true);
+            Name = name;
+            Surname = surname;
+            Faculty = faculty;
+            CourseType = courseType;
+            Email = email;
+            FatherName = fatherName;
+            MotherName = motherName;
+            IndexNumer = indexNumer;
+            StudiesStart = studiesStart;
+        }
+
+        public static Student CreateStudent(string entry)
+        {
+            StreamWriter logger = new(LoggerPath, append: true);
             string[] entrysplit = entry.Split(",");
+            if (entrysplit.Length != 9)
+            {
+                logger.Write($"({DateTime.Now} | Student)Not Enough Data: ");
+                logger.Write(entry);
+                logger.Write("\n");
+                return null;
+            }
             for (int i = 0; i < entrysplit.Length; i++)
             {
                 if (entrysplit[i].Equals(""))
                 {
-                    Logger.Write($"({DateTime.Now})Faulty Entry: ");
-                    Logger.Write(entry);
-                    Logger.Write("\n");
-                    break;
+                    logger.Write($"({DateTime.Now} | Student)Empty Values: ");
+                    logger.Write(entry);
+                    logger.Write("\n");
+                    return null;
                 }
             }
 
             int counter = 0;
-            Name = entrysplit[counter++];
-            Surname = entrysplit[counter++];
-            Faculty = entrysplit[counter++];
-            CourseType = entrysplit[counter++];
-            IndexNumer = int.Parse(entrysplit[counter++]);
-            StudiesStart = DateTime.Parse(entrysplit[counter++]);
-            Email = entrysplit[counter++];
-            FatherName = entrysplit[counter++];
-            MotherName = entrysplit[counter];
+            string name = entrysplit[counter++];
+            string surname = entrysplit[counter++];
+            string faculty = entrysplit[counter++];
+            string courseType = entrysplit[counter++];
+            int indexNumber = int.Parse(entrysplit[counter++]);
+            DateTime studiesStart = DateTime.Parse(entrysplit[counter++]);
+            string email = entrysplit[counter++];
+            string fatherName = entrysplit[counter++];
+            string motherName = entrysplit[counter];
             
-            Logger.Close();
+            logger.Close();
+
+            return new Student(name, surname, faculty, courseType, email, fatherName, motherName, indexNumber,
+                studiesStart);
         }
 
         public override string ToString()

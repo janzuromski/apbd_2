@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace ConsoleApp1
@@ -35,6 +37,14 @@ namespace ConsoleApp1
             }
         }
 
+        public void SaveStudents(string path)
+        {
+            string json = JsonSerializer.Serialize(Students, new JsonSerializerOptions { WriteIndented = true });
+            StreamWriter writer = new (path);
+            writer.Write(json);
+            writer.Close();
+        }
+
         public void ShowStudents()
         {
             foreach (var student in Students)
@@ -47,7 +57,7 @@ namespace ConsoleApp1
         {
             Program program = new();
             await program.ParseStudents(args[0]);
-            program.ShowStudents();
+            program.SaveStudents(args[0]);
             // DateTime - typ dla daty: metody Parse() i TryParse()
             // DateTime.Parse("2022-03-20")
 
@@ -65,17 +75,33 @@ namespace ConsoleApp1
 
     class Student
     {
-        public string Name, Surname, Faculty, CourseType, Email, FatherName, MotherName;
-        public int IndexNumer;
-        public DateTime StudiesStart;
+        internal class StudiesDescription
+        {
+            public string name { get; set; }
+            public string mode { get; set; }
+
+            public StudiesDescription(string name, string mode)
+            {
+                this.name = name;
+                this.mode = mode;
+            }
+        }
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        
+        public StudiesDescription Studies { get; set; }
+        public string Email { get; set; }
+        public string FatherName { get; set; }
+        public string MotherName { get; set; }
+        public int IndexNumer { get; set; }
+        public DateTime StudiesStart { get; set; }
 
         private Student(string name, string surname, string faculty, string courseType, string email,
             string fatherName, string motherName, int indexNumer, DateTime studiesStart)
         {
             Name = name;
             Surname = surname;
-            Faculty = faculty;
-            CourseType = courseType;
+            Studies = new(faculty, courseType);
             Email = email;
             FatherName = fatherName;
             MotherName = motherName;
@@ -123,7 +149,7 @@ namespace ConsoleApp1
         public override string ToString()
         {
             return
-                $"Student s{IndexNumer}: {Name} {Surname}, {Faculty}, {CourseType}," +
+                $"Student s{IndexNumer}: {Name} {Surname}, {Studies.name}, {Studies.mode}," +
                 $"{StudiesStart}, {Email}, {FatherName}, {MotherName}";
         }
     }

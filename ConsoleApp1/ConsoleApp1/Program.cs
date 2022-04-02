@@ -7,6 +7,7 @@ namespace ConsoleApp1
 {
     public class Program
     {
+        public const string LoggerPath = "Data/log.txt";
         private HashSet<Student> Students;
 
         public Program()
@@ -16,13 +17,21 @@ namespace ConsoleApp1
 
         public async Task ParseStudents(string path)
         {
+            StreamWriter logger = new(LoggerPath, append: true);
             using StreamReader stream = new(path);
 
-            string line = null;
+            string line;
 
             while ((line = await stream.ReadLineAsync()) != null)
             {
-                Students.Add(Student.CreateStudent(line));
+                Student s = Student.CreateStudent(line);
+                if (s != null)
+                {
+                    if (!Students.Add(Student.CreateStudent(line)))
+                    {
+                        await logger.WriteLineAsync($"({DateTime.Now} | Program) Duplicate Warning: {s}");
+                    }
+                }
             }
         }
 
@@ -51,6 +60,7 @@ namespace ConsoleApp1
             // serializacja do JSON: var json = JsonSerializer.Serializer(set)
 
         }
+
     }
 
     class Student
@@ -58,7 +68,6 @@ namespace ConsoleApp1
         public string Name, Surname, Faculty, CourseType, Email, FatherName, MotherName;
         public int IndexNumer;
         public DateTime StudiesStart;
-        public const string LoggerPath = "Data/log.txt";
 
         private Student(string name, string surname, string faculty, string courseType, string email,
             string fatherName, string motherName, int indexNumer, DateTime studiesStart)
@@ -76,22 +85,20 @@ namespace ConsoleApp1
 
         public static Student CreateStudent(string entry)
         {
-            StreamWriter logger = new(LoggerPath, append: true);
+            StreamWriter logger = new(Program.LoggerPath, append: true);
             string[] entrysplit = entry.Split(",");
             if (entrysplit.Length != 9)
             {
-                logger.Write($"({DateTime.Now} | Student)Not Enough Data: ");
-                logger.Write(entry);
-                logger.Write("\n");
+                logger.WriteLine($"({DateTime.Now} | Student) Not Enough Data: {entry}");
+                logger.Close();
                 return null;
             }
             for (int i = 0; i < entrysplit.Length; i++)
             {
-                if (entrysplit[i].Equals(""))
+                if (string.IsNullOrWhiteSpace(entrysplit[i]))
                 {
-                    logger.Write($"({DateTime.Now} | Student)Empty Values: ");
-                    logger.Write(entry);
-                    logger.Write("\n");
+                    logger.WriteLine($"({DateTime.Now} | Student) Empty Values: {entry}");
+                    logger.Close();
                     return null;
                 }
             }
@@ -123,9 +130,10 @@ namespace ConsoleApp1
 
     class StudentComparer : EqualityComparer<Student>
     { 
-        public override bool Equals(Student? x, Student? y)
+        public override bool Equals(Student x, Student y)
         {
-            return x.IndexNumer.Equals(y.IndexNumer) & x.Name.Equals(y.Name) & x.Surname.Equals(y.Surname);
+            return x != null && y != null && x.IndexNumer.Equals(y.IndexNumer) & x.Name.Equals(y.Name) &
+                x.Surname.Equals(y.Surname);
         }
 
         public override int GetHashCode(Student s)

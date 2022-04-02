@@ -1,89 +1,107 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Text.Json;
-using System.Text.Json.Serialization;
 using System.Threading.Tasks;
+
 
 namespace ConsoleApp1
 {
     public class Program
     {
         public const string LoggerPath = "Data/log.txt";
-        private HashSet<Student> Students;
-
-        public Program()
-        {
-            Students = new(new StudentComparer());
-        }
-
-        public async Task ParseStudents(string path)
-        {
-            StreamWriter logger = new(LoggerPath, append: true);
-            using StreamReader stream = new(path);
-
-            string line;
-
-            while ((line = await stream.ReadLineAsync()) != null)
-            {
-                Student s = Student.CreateStudent(line);
-                if (s != null)
-                {
-                    if (!Students.Add(Student.CreateStudent(line)))
-                    {
-                        await logger.WriteLineAsync($"({DateTime.Now} | Program) Duplicate Warning: {s}");
-                    }
-                }
-            }
-        }
-
-        public void SaveStudents(string path)
-        {
-            string json = JsonSerializer.Serialize(Students, new JsonSerializerOptions { WriteIndented = true });
-            StreamWriter writer = new (path);
-            writer.Write(json);
-            writer.Close();
-        }
-
-        public void ShowStudents()
-        {
-            foreach (var student in Students)
-            {
-                Console.WriteLine(student);
-            }
-        }
-        
         public static async Task Main(string[] args)
         {
-            Program program = new();
-            await program.ParseStudents(args[0]);
-            program.SaveStudents(args[0]);
-            // DateTime - typ dla daty: metody Parse() i TryParse()
-            // DateTime.Parse("2022-03-20")
+            University university = new University("Jan Żuromski");
+            await university.ParseStudents(args[0]);
+            await university.SaveStudents(args[1], args[2]);
+        }
 
-            // string.isNullOrWhiteSpace(str)
+    }
 
-            // studenci bedą przechowywani w HashSet (należy napisać comparator studentów)
+    class University
+    {
+        public string Author { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public HashSet<Student> Students { get; set; }
 
-            // zapisywanie do pliku: StreamWriter stream... stream.WriteLine(line)
+        public University(string author)
+        {
+            Students = new HashSet<Student>(new StudentComparer());
+            Author = author;
+            CreatedAt = DateTime.Today;
+        }
+        
+        public async Task ParseStudents(string path)
+        {
+            StreamWriter logger = new(Program.LoggerPath, append: true);
+            try
+            {
+                StreamReader stream = new(path);
+                string line;
 
-            // serializacja do JSON: var json = JsonSerializer.Serializer(set)
+                while ((line = await stream.ReadLineAsync()) != null)
+                {
+                    Student s = Student.CreateStudent(line);
+                    if (s != null)
+                    {
+                        if (!Students.Add(Student.CreateStudent(line)))
+                        {
+                            await logger.WriteLineAsync($"({DateTime.Now} | Program) Duplicate Warning: {s}");
+                        }
+                    }
+                }
+                stream.Close();
+            }
+            catch (FileNotFoundException e)
+            {
+                await logger.WriteLineAsync($"({DateTime.Now} | ParseStudents) File does not exist: {path}");
+                logger.Close();
+            }
 
         }
 
+        public async Task SaveStudents(string path, string format)
+        {
+            var json = JsonSerializer.Serialize(
+                this,
+                new JsonSerializerOptions 
+                {
+                    WriteIndented = true,
+                    Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+                }
+            );
+            try
+            {
+                if (!path.Contains("json"))
+                {
+                    throw new ArgumentException();
+                }
+                StreamWriter writer = new(path);
+                await writer.WriteAsync(json);
+                writer.Close();
+            }
+            catch (ArgumentException e)
+            {
+                StreamWriter logger = new(Program.LoggerPath, append: true);
+                await logger.WriteLineAsync($"({DateTime.Now} | SaveStudents) File Path is Invalid: {path}");
+                logger.Close();
+            }
+        }
     }
 
     class Student
     {
         internal class StudiesDescription
         {
-            public string name { get; set; }
-            public string mode { get; set; }
+            public string Name { get; set; }
+            public string Mode { get; set; }
 
             public StudiesDescription(string name, string mode)
             {
-                this.name = name;
-                this.mode = mode;
+                this.Name = name;
+                this.Mode = mode;
             }
         }
         public string Name { get; set; }
@@ -135,7 +153,10 @@ namespace ConsoleApp1
             string faculty = entrysplit[counter++];
             string courseType = entrysplit[counter++];
             int indexNumber = int.Parse(entrysplit[counter++]);
-            DateTime studiesStart = DateTime.Parse(entrysplit[counter++]);
+            DateTime studiesStart = DateTime.Parse(
+                entrysplit[counter++], 
+                CultureInfo.InvariantCulture, 
+                DateTimeStyles.RoundtripKind);
             string email = entrysplit[counter++];
             string fatherName = entrysplit[counter++];
             string motherName = entrysplit[counter];
@@ -149,7 +170,7 @@ namespace ConsoleApp1
         public override string ToString()
         {
             return
-                $"Student s{IndexNumer}: {Name} {Surname}, {Studies.name}, {Studies.mode}," +
+                $"Student s{IndexNumer}: {Name} {Surname}, {Studies.Name}, {Studies.Mode}," +
                 $"{StudiesStart}, {Email}, {FatherName}, {MotherName}";
         }
     }

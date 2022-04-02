@@ -1,0 +1,269 @@
+(04/03/2022 00:24:03 | ParseStudents) File does not exist: Data\dane.csv
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s459: Paweł Nowak1, Informatyka magisterskie 4 sem, Dzienne,02/12/2000 00:00:00, 1@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s459: Paweł Nowak1, Informatyka doktoranckie, Dzienne,02/12/2000 00:00:00, 1@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4749: Justyna Kowalski30, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 30@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4432: Michał Nowak31, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 31@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4799: Joanna Brzęczyszczykiewicz37, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 37@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4626: Irena Maciejewski38, Sztuka Nowych Mediów zaoczne, Zaoczne,02/12/2000 00:00:00, 38@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4396: Kacper Kowalski40, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 40@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4902: Paweł Nowak41, Sztuka Nowych Mediów zaoczne, Zaoczne,02/12/2000 00:00:00, 41@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4434: Aleksandra Brzęczyszczykiewicz42, Sztuka Nowych Mediów zaoczne 6 sem., Zaoczne,02/12/2000 00:00:00, 42@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4842: Jan Nowak46, Sztuka Nowych Mediów zaoczne 6 sem., Zaoczne,02/12/2000 00:00:00, 46@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4789: Jakub Jankowski49, Sztuka Nowych Mediów zaoczne, Zaoczne,02/12/2000 00:00:00, 49@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4513: Sabina Brzęczyszczykiewicz52, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 52@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4649: Jan Nowak56, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 56@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4755: Jakub Brzęczyszczykiewicz57, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 57@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4423: Karolina Jankowski64, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 64@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4629: Magdalena Nowak66, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 66@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4478: Paweł Jankowski69, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 69@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4741: Kamil Nowak71, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 71@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4800: Sandra Brzęczyszczykiewicz77, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 77@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4429: Małgorzata Maciejewski78, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 78@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4849: Klaudia Jankowski84, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 84@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s3374: Tomasz Kowalski95, Sztuka Nowych Mediów dzienne, Dzienne,02/12/2000 00:00:00, 95@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4412: Paweł Brzęczyszczykiewicz252, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 252@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4836: Kamil Jankowski254, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 254@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4454: Michał Brzęczyszczykiewicz257, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 257@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4443: Patryk Maciejewski258, Informatyka dzienne po angielsku, Dzienne,02/12/2000 00:00:00, 258@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4579: Michał Kowalski260, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 260@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4413: Zuzanna Jankowski264, Informatyka dzienne po angielsku, Dzienne,02/12/2000 00:00:00, 264@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4554: Wojciech Nowak266, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 266@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4711: Jakub Kowalski270, Informatyka internetowe, Internetowe,02/12/2000 00:00:00, 270@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4711: Jakub Kowalski270, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 270@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4549: Aleksandra Brzęczyszczykiewicz272, Informatyka dzienne po angielsku, Dzienne,02/12/2000 00:00:00, 272@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4549: Aleksandra Brzęczyszczykiewicz272, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 272@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4618: Piotr Maciejewski273, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 273@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4530: Adrian Jankowski274, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 274@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4607: Andrzej Kowalski275, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 275@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4459: Wojciech Nowak276, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 276@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4589: Agata Nowak281, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 281@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4589: Agata Nowak281, Informatyka internetowe, Internetowe,02/12/2000 00:00:00, 281@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4556: Piotr Maciejewski283, Informatyka magisterskie uzupełniające zaoczne, Zaoczne,02/12/2000 00:00:00, 283@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4504: Grzegorz Jankowski284, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 284@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4505: Sebastian Kowalski285, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 285@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4105: Filip Nowak286, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 286@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4105: Filip Nowak286, Informatyka jednolite magisterskie, Dzienne,02/12/2000 00:00:00, 286@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4498: Artur Maciejewski288, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 288@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4471: Piotr Jankowski289, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 289@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4471: Piotr Jankowski289, Informatyka dzienne po angielsku, Dzienne,02/12/2000 00:00:00, 289@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4724: Tomasz Jankowski294, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 294@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4769: Michał Nowak296, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 296@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4733: Jakub Maciejewski298, Informatyka internetowe, Internetowe,02/12/2000 00:00:00, 298@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4584: Kasper Jankowski299, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 299@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4514: Krzysztof Kowalski300, Informatyka magisterskie uzupełniające zaoczne, Zaoczne,02/12/2000 00:00:00, 300@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4935: Katarzyna Maciejewski303, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 303@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4456: Piotr Kowalski305, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 305@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4107: Jan Nowak306, Informatyka internetowe, Internetowe,02/12/2000 00:00:00, 306@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4107: Jan Nowak306, Informatyka jednolite magisterskie, Dzienne,02/12/2000 00:00:00, 306@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4107: Jan Nowak306, Informatyka jednolite magisterskie po angielsku, Dzienne,02/12/2000 00:00:00, 306@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4817: Kacper Maciejewski308, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 308@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4387: Lech Kowalski310, Informatyka dzienne po angielsku, Dzienne,02/12/2000 00:00:00, 310@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4509: Błażej Nowak311, Informatyka magisterskie uzupełniające zaoczne, Zaoczne,02/12/2000 00:00:00, 311@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4481: Paweł Maciejewski313, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 313@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4512: Wojciech Jankowski314, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 314@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4782: Maciej Kowalski315, Informatyka Społeczna, Dzienne,02/12/2000 00:00:00, 315@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4627: Michał Kowalski320, Informatyka dzienne po angielsku, Dzienne,02/12/2000 00:00:00, 320@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4830: Krzysztof Nowak321, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 321@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4447: Mariusz Maciejewski323, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 323@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4580: Bartosz Jankowski324, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 324@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4284: Piotr Kowalski325, Sztuka Nowych Mediów zaoczne, Zaoczne,02/12/2000 00:00:00, 325@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4440: Michał Nowak326, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 326@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4796: Paweł Jankowski329, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 329@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4942: Nakul Brzęczyszczykiewicz332, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 332@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4614: Tomoto Maciejewski333, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 333@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4433: Adam Kowalski335, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 335@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4419: Michał Maciejewski338, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 338@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4419: Michał Maciejewski338, Informatyka doktoranckie, Dzienne,02/12/2000 00:00:00, 338@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4058: Adrian Nowak341, Informatyka wieczorowe, Wieczorowe,02/12/2000 00:00:00, 341@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4524: Michał Brzęczyszczykiewicz342, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 342@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4532: Jagoda Maciejewski348, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 348@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4480: Tomasz Jankowski349, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 349@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4523: Michał Nowak351, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 351@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4766: Bartosz Brzęczyszczykiewicz352, Informatyka internetowe, Internetowe,02/12/2000 00:00:00, 352@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4422: Yuriy Nowak356, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 356@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4660: Michał Brzęczyszczykiewicz357, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 357@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s3081: Mikołaj Kowalski360, Informatyka jednolite magisterskie, Dzienne,02/12/2000 00:00:00, 360@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s3081: Mikołaj Kowalski360, Informatyka jednolite magisterskie po angielsku, Dzienne,02/12/2000 00:00:00, 360@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4385: Anna Brzęczyszczykiewicz362, Informatyka internetowe, Internetowe,02/12/2000 00:00:00, 362@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4522: Michał Jankowski364, Informatyka dzienne po angielsku, Dzienne,02/12/2000 00:00:00, 364@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4518: Karol Nowak366, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 366@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4384: Adrian Brzęczyszczykiewicz367, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 367@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:05 | Program) Duplicate Warning: Student s4384: Adrian Brzęczyszczykiewicz367, Informatyka internetowe, Internetowe,02/12/2000 00:00:00, 367@pjwstk.edu.pl, Alina, Adam(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s459: Paweł Nowak1, Informatyka magisterskie 4 sem, Dzienne,02/12/2000 00:00:00, 1@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s459: Paweł Nowak1, Informatyka doktoranckie, Dzienne,02/12/2000 00:00:00, 1@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4749: Justyna Kowalski30, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 30@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4432: Michał Nowak31, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 31@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4799: Joanna Brzęczyszczykiewicz37, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 37@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4626: Irena Maciejewski38, Sztuka Nowych Mediów zaoczne, Zaoczne,02/12/2000 00:00:00, 38@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4396: Kacper Kowalski40, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 40@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4902: Paweł Nowak41, Sztuka Nowych Mediów zaoczne, Zaoczne,02/12/2000 00:00:00, 41@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4434: Aleksandra Brzęczyszczykiewicz42, Sztuka Nowych Mediów zaoczne 6 sem., Zaoczne,02/12/2000 00:00:00, 42@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4842: Jan Nowak46, Sztuka Nowych Mediów zaoczne 6 sem., Zaoczne,02/12/2000 00:00:00, 46@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4789: Jakub Jankowski49, Sztuka Nowych Mediów zaoczne, Zaoczne,02/12/2000 00:00:00, 49@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4513: Sabina Brzęczyszczykiewicz52, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 52@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4649: Jan Nowak56, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 56@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4755: Jakub Brzęczyszczykiewicz57, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 57@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4423: Karolina Jankowski64, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 64@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4629: Magdalena Nowak66, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 66@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4478: Paweł Jankowski69, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 69@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4741: Kamil Nowak71, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 71@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4800: Sandra Brzęczyszczykiewicz77, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 77@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4429: Małgorzata Maciejewski78, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 78@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4849: Klaudia Jankowski84, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 84@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s3374: Tomasz Kowalski95, Sztuka Nowych Mediów dzienne, Dzienne,02/12/2000 00:00:00, 95@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4412: Paweł Brzęczyszczykiewicz252, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 252@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4836: Kamil Jankowski254, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 254@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4454: Michał Brzęczyszczykiewicz257, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 257@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4443: Patryk Maciejewski258, Informatyka dzienne po angielsku, Dzienne,02/12/2000 00:00:00, 258@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4579: Michał Kowalski260, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 260@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4413: Zuzanna Jankowski264, Informatyka dzienne po angielsku, Dzienne,02/12/2000 00:00:00, 264@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4554: Wojciech Nowak266, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 266@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4711: Jakub Kowalski270, Informatyka internetowe, Internetowe,02/12/2000 00:00:00, 270@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4711: Jakub Kowalski270, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 270@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4549: Aleksandra Brzęczyszczykiewicz272, Informatyka dzienne po angielsku, Dzienne,02/12/2000 00:00:00, 272@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4549: Aleksandra Brzęczyszczykiewicz272, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 272@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4618: Piotr Maciejewski273, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 273@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4530: Adrian Jankowski274, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 274@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4607: Andrzej Kowalski275, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 275@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4459: Wojciech Nowak276, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 276@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4589: Agata Nowak281, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 281@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4589: Agata Nowak281, Informatyka internetowe, Internetowe,02/12/2000 00:00:00, 281@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4556: Piotr Maciejewski283, Informatyka magisterskie uzupełniające zaoczne, Zaoczne,02/12/2000 00:00:00, 283@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4504: Grzegorz Jankowski284, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 284@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4505: Sebastian Kowalski285, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 285@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4105: Filip Nowak286, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 286@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4105: Filip Nowak286, Informatyka jednolite magisterskie, Dzienne,02/12/2000 00:00:00, 286@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4498: Artur Maciejewski288, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 288@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4471: Piotr Jankowski289, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 289@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4471: Piotr Jankowski289, Informatyka dzienne po angielsku, Dzienne,02/12/2000 00:00:00, 289@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4724: Tomasz Jankowski294, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 294@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4769: Michał Nowak296, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 296@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4733: Jakub Maciejewski298, Informatyka internetowe, Internetowe,02/12/2000 00:00:00, 298@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4584: Kasper Jankowski299, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 299@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4514: Krzysztof Kowalski300, Informatyka magisterskie uzupełniające zaoczne, Zaoczne,02/12/2000 00:00:00, 300@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4935: Katarzyna Maciejewski303, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 303@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4456: Piotr Kowalski305, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 305@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4107: Jan Nowak306, Informatyka internetowe, Internetowe,02/12/2000 00:00:00, 306@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4107: Jan Nowak306, Informatyka jednolite magisterskie, Dzienne,02/12/2000 00:00:00, 306@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4107: Jan Nowak306, Informatyka jednolite magisterskie po angielsku, Dzienne,02/12/2000 00:00:00, 306@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4817: Kacper Maciejewski308, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 308@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4387: Lech Kowalski310, Informatyka dzienne po angielsku, Dzienne,02/12/2000 00:00:00, 310@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4509: Błażej Nowak311, Informatyka magisterskie uzupełniające zaoczne, Zaoczne,02/12/2000 00:00:00, 311@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4481: Paweł Maciejewski313, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 313@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4512: Wojciech Jankowski314, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 314@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4782: Maciej Kowalski315, Informatyka Społeczna, Dzienne,02/12/2000 00:00:00, 315@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4627: Michał Kowalski320, Informatyka dzienne po angielsku, Dzienne,02/12/2000 00:00:00, 320@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4830: Krzysztof Nowak321, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 321@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4447: Mariusz Maciejewski323, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 323@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4580: Bartosz Jankowski324, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 324@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4284: Piotr Kowalski325, Sztuka Nowych Mediów zaoczne, Zaoczne,02/12/2000 00:00:00, 325@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4440: Michał Nowak326, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 326@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4796: Paweł Jankowski329, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 329@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4942: Nakul Brzęczyszczykiewicz332, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 332@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4614: Tomoto Maciejewski333, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 333@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4433: Adam Kowalski335, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 335@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4419: Michał Maciejewski338, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 338@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4419: Michał Maciejewski338, Informatyka doktoranckie, Dzienne,02/12/2000 00:00:00, 338@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4058: Adrian Nowak341, Informatyka wieczorowe, Wieczorowe,02/12/2000 00:00:00, 341@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4524: Michał Brzęczyszczykiewicz342, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 342@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4532: Jagoda Maciejewski348, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 348@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4480: Tomasz Jankowski349, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 349@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4523: Michał Nowak351, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 351@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4766: Bartosz Brzęczyszczykiewicz352, Informatyka internetowe, Internetowe,02/12/2000 00:00:00, 352@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4422: Yuriy Nowak356, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 356@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4660: Michał Brzęczyszczykiewicz357, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 357@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s3081: Mikołaj Kowalski360, Informatyka jednolite magisterskie, Dzienne,02/12/2000 00:00:00, 360@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s3081: Mikołaj Kowalski360, Informatyka jednolite magisterskie po angielsku, Dzienne,02/12/2000 00:00:00, 360@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4385: Anna Brzęczyszczykiewicz362, Informatyka internetowe, Internetowe,02/12/2000 00:00:00, 362@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4522: Michał Jankowski364, Informatyka dzienne po angielsku, Dzienne,02/12/2000 00:00:00, 364@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4518: Karol Nowak366, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 366@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4384: Adrian Brzęczyszczykiewicz367, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 367@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:29:44 | Program) Duplicate Warning: Student s4384: Adrian Brzęczyszczykiewicz367, Informatyka internetowe, Internetowe,02/12/2000 00:00:00, 367@pjwstk.edu.pl, Alina, Adam(04/03/2022 00:29:44 | SaveStudents) File Path is Invalid: Data/output(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s459: Paweł Nowak1, Informatyka magisterskie 4 sem, Dzienne,02/12/2000 00:00:00, 1@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s459: Paweł Nowak1, Informatyka doktoranckie, Dzienne,02/12/2000 00:00:00, 1@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4749: Justyna Kowalski30, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 30@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4432: Michał Nowak31, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 31@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4799: Joanna Brzęczyszczykiewicz37, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 37@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4626: Irena Maciejewski38, Sztuka Nowych Mediów zaoczne, Zaoczne,02/12/2000 00:00:00, 38@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4396: Kacper Kowalski40, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 40@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4902: Paweł Nowak41, Sztuka Nowych Mediów zaoczne, Zaoczne,02/12/2000 00:00:00, 41@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4434: Aleksandra Brzęczyszczykiewicz42, Sztuka Nowych Mediów zaoczne 6 sem., Zaoczne,02/12/2000 00:00:00, 42@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4842: Jan Nowak46, Sztuka Nowych Mediów zaoczne 6 sem., Zaoczne,02/12/2000 00:00:00, 46@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4789: Jakub Jankowski49, Sztuka Nowych Mediów zaoczne, Zaoczne,02/12/2000 00:00:00, 49@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4513: Sabina Brzęczyszczykiewicz52, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 52@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4649: Jan Nowak56, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 56@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4755: Jakub Brzęczyszczykiewicz57, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 57@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4423: Karolina Jankowski64, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 64@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4629: Magdalena Nowak66, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 66@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4478: Paweł Jankowski69, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 69@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4741: Kamil Nowak71, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 71@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4800: Sandra Brzęczyszczykiewicz77, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 77@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4429: Małgorzata Maciejewski78, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 78@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4849: Klaudia Jankowski84, Sztuka Nowych Mediów uzupełniające magisterskie, Dzienne,02/12/2000 00:00:00, 84@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s3374: Tomasz Kowalski95, Sztuka Nowych Mediów dzienne, Dzienne,02/12/2000 00:00:00, 95@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4412: Paweł Brzęczyszczykiewicz252, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 252@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4836: Kamil Jankowski254, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 254@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4454: Michał Brzęczyszczykiewicz257, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 257@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4443: Patryk Maciejewski258, Informatyka dzienne po angielsku, Dzienne,02/12/2000 00:00:00, 258@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4579: Michał Kowalski260, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 260@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4413: Zuzanna Jankowski264, Informatyka dzienne po angielsku, Dzienne,02/12/2000 00:00:00, 264@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4554: Wojciech Nowak266, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 266@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4711: Jakub Kowalski270, Informatyka internetowe, Internetowe,02/12/2000 00:00:00, 270@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4711: Jakub Kowalski270, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 270@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4549: Aleksandra Brzęczyszczykiewicz272, Informatyka dzienne po angielsku, Dzienne,02/12/2000 00:00:00, 272@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4549: Aleksandra Brzęczyszczykiewicz272, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 272@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4618: Piotr Maciejewski273, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 273@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4530: Adrian Jankowski274, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 274@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4607: Andrzej Kowalski275, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 275@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4459: Wojciech Nowak276, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 276@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4589: Agata Nowak281, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 281@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4589: Agata Nowak281, Informatyka internetowe, Internetowe,02/12/2000 00:00:00, 281@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4556: Piotr Maciejewski283, Informatyka magisterskie uzupełniające zaoczne, Zaoczne,02/12/2000 00:00:00, 283@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4504: Grzegorz Jankowski284, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 284@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4505: Sebastian Kowalski285, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 285@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4105: Filip Nowak286, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 286@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4105: Filip Nowak286, Informatyka jednolite magisterskie, Dzienne,02/12/2000 00:00:00, 286@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4498: Artur Maciejewski288, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 288@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4471: Piotr Jankowski289, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 289@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4471: Piotr Jankowski289, Informatyka dzienne po angielsku, Dzienne,02/12/2000 00:00:00, 289@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4724: Tomasz Jankowski294, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 294@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4769: Michał Nowak296, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 296@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4733: Jakub Maciejewski298, Informatyka internetowe, Internetowe,02/12/2000 00:00:00, 298@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4584: Kasper Jankowski299, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 299@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4514: Krzysztof Kowalski300, Informatyka magisterskie uzupełniające zaoczne, Zaoczne,02/12/2000 00:00:00, 300@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4935: Katarzyna Maciejewski303, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 303@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4456: Piotr Kowalski305, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 305@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4107: Jan Nowak306, Informatyka internetowe, Internetowe,02/12/2000 00:00:00, 306@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4107: Jan Nowak306, Informatyka jednolite magisterskie, Dzienne,02/12/2000 00:00:00, 306@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4107: Jan Nowak306, Informatyka jednolite magisterskie po angielsku, Dzienne,02/12/2000 00:00:00, 306@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4817: Kacper Maciejewski308, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 308@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4387: Lech Kowalski310, Informatyka dzienne po angielsku, Dzienne,02/12/2000 00:00:00, 310@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4509: Błażej Nowak311, Informatyka magisterskie uzupełniające zaoczne, Zaoczne,02/12/2000 00:00:00, 311@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4481: Paweł Maciejewski313, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 313@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4512: Wojciech Jankowski314, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 314@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4782: Maciej Kowalski315, Informatyka Społeczna, Dzienne,02/12/2000 00:00:00, 315@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4627: Michał Kowalski320, Informatyka dzienne po angielsku, Dzienne,02/12/2000 00:00:00, 320@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4830: Krzysztof Nowak321, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 321@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4447: Mariusz Maciejewski323, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 323@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4580: Bartosz Jankowski324, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 324@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4284: Piotr Kowalski325, Sztuka Nowych Mediów zaoczne, Zaoczne,02/12/2000 00:00:00, 325@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4440: Michał Nowak326, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 326@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4796: Paweł Jankowski329, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 329@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4942: Nakul Brzęczyszczykiewicz332, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 332@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4614: Tomoto Maciejewski333, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 333@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4433: Adam Kowalski335, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 335@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4419: Michał Maciejewski338, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 338@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4419: Michał Maciejewski338, Informatyka doktoranckie, Dzienne,02/12/2000 00:00:00, 338@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4058: Adrian Nowak341, Informatyka wieczorowe, Wieczorowe,02/12/2000 00:00:00, 341@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4524: Michał Brzęczyszczykiewicz342, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 342@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4532: Jagoda Maciejewski348, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 348@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4480: Tomasz Jankowski349, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 349@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4523: Michał Nowak351, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 351@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4766: Bartosz Brzęczyszczykiewicz352, Informatyka internetowe, Internetowe,02/12/2000 00:00:00, 352@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4422: Yuriy Nowak356, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 356@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4660: Michał Brzęczyszczykiewicz357, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 357@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s3081: Mikołaj Kowalski360, Informatyka jednolite magisterskie, Dzienne,02/12/2000 00:00:00, 360@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s3081: Mikołaj Kowalski360, Informatyka jednolite magisterskie po angielsku, Dzienne,02/12/2000 00:00:00, 360@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4385: Anna Brzęczyszczykiewicz362, Informatyka internetowe, Internetowe,02/12/2000 00:00:00, 362@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4522: Michał Jankowski364, Informatyka dzienne po angielsku, Dzienne,02/12/2000 00:00:00, 364@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4518: Karol Nowak366, Informatyka magisterskie 3 sem, Dzienne,02/12/2000 00:00:00, 366@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4384: Adrian Brzęczyszczykiewicz367, Informatyka zaoczne, Zaoczne,02/12/2000 00:00:00, 367@pjwstk.edu.pl, Alina, Adam
+(04/03/2022 00:30:11 | Program) Duplicate Warning: Student s4384: Adrian Brzęczyszczykiewicz367, Informatyka internetowe, Internetowe,02/12/2000 00:00:00, 367@pjwstk.edu.pl, Alina, Adam(04/03/2022 00:30:12 | SaveStudents) File Path is Invalid: Data/output
